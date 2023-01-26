@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title> MENSAJE SECRETO  </title></code>
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/000/627/869/non_2x/padlock-icon-symbol-sign-vector.jpg">
+	<link rel="stylesheet" href="secreto.css">
+</head>
+<body>
+    <header class="header content">
+        <div class="header-video">
+        <video muted autoplay loop id="video_background" preload="auto">
+            <source src="WhatsApp Video 2023-01-16 at 5.23.11 PM.mp4" type="video/mp4"  />
+          </video>
+        </div>
+        <div class="header-overlay"></div>
+         <div class="header-content">
+          <h1 class="uno"><span> WHAT'S YOUR SECRET ?</span></h1>
+	      <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+			<button class="navbar-burger is-warning button" aria-label="menu" aria-expanded="false"
+				data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</button>
+		</div>
+	</nav>
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", () => {
+			const boton = document.querySelector(".navbar-burger");
+			const menu = document.querySelector(".navbar-menu");
+			boton.onclick = () => {
+				boton.classList.toggle("is-active");
+			};
+		});
+	</script>
+	<section class="section">
+		<div class="columns">
+			<div class="column1">
+				<h2 class="is-size-2">CIFRAR </h2>
+				<div class="field">
+					<label class="label">CONTRASEÑA SECRETA  </label>
+					<div class="control">
+						<input id="contraseñaEncriptar" class="input" type="password"
+							placeholder="Escribe tu contraseña  ">
+					</div>
+				</div>
+				<div class="field">
+					<label class="label"> MENSAJE SECRETO   </label>
+					<div class="control">
+						<textarea id="informacionEncriptar" class="textarea"
+							placeholder="texto a ocultar "></textarea>
+					</div>
+				</div>
+				<button class="button is-success" id="botonEncriptar"> ENIGMA</button>
+				<div class="field">
+					<label class="label"> RESULTADO </label>
+					<div class="control">
+						<textarea readonly id="resultadoEncriptacion" class="textarea"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="column2">
+				<h2 class="is-size-2">DESIFRAR  </h2>
+				<div class="field">
+					<label class="label">CONTRASEÑA SECRETA  </label>
+					<div class="control">
+						<input class="input" id="contraseñaDesencriptar" type="password"
+							placeholder="escribe tu contraseña secreta  ">
+					</div>
+				</div>
+				<div class="field">
+					<label class="label"> ENIGMA A DESIFRAR </label>
+					<div class="control">
+						<textarea class="textarea" id="informacionDesencriptar"
+							placeholder=" pega tu enigma "></textarea>
+					</div>
+				</div>
+				<button class="button is-success" id="botonDesencriptar">DESIFRAR </button>
+				<div class="field">
+					<label class="label">Resultado</label>
+					<div class="control">
+						<textarea readonly id="resultadoDesencriptacion" class="textarea"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	</section>
+	<footer class="footer">
+		<div class="content has-text-centered">
+		</div>
+	</footer>
+</header > 
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
 
